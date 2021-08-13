@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import MessageList from './components/MessageList'
+import { App } from './App'
+import './css/styles.css'
 
-ReactDOM.render(<MessageList />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
