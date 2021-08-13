@@ -1,0 +1,30 @@
+.header {
+    margin: 1.25rem 0;
+    border-bottom: 2px solid black;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.button-play, .button-clear {
+    background-color: #88FCA3 !important;
+    margin: 0 0.5rem !important;
+}
+
+.card {
+    height: 120; 
+    width: 300;
+    margin-bottom: 16;
+    margin-left: 16;
+    margin-right: 16;
+    position: relative;
+}
+
+.card-actions {
+    position: 'absolute';
+    right: 0;
+    bottom: 0;
+}
